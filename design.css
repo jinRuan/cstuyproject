@@ -1,0 +1,71 @@
+body {background-color: black;
+	color: white;
+        text-align: center;
+        }
+#googleMap {
+        width: 200px;
+            position: relative;
+            left: 20%;
+            margin-left: -35px;
+}
+
+#questions {
+	background-color: red;
+	border-radius: 100px;	
+        width: 200px;
+    height: 100px;
+            position: relative;
+        top: 0;
+            left: 20%;
+            align-content: center;
+}
+
+#dropDown {
+    background-color: red;
+    border-radius:100px;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top:5%;
+    margin-left: 100px;
+}
+
+table {
+    height: 150px;
+    margin-left: 350px;
+    text-align: center;
+
+}
+
+#inputForm {
+    margin-left: 100px;
+}
+
+form {
+    text-align:center;
+
+}
+
+#submitButton {
+    padding-top: 10px;
+}
+
+#actualBtn {
+    width:200px;
+    height:40px;
+}
+
+body
+{
+    background:url(http://cdnimg.visualizeus.com/thumbs/4d/fe/gummybears,food,rainbow,yum-4dfe481696090b04e362ac740f59c00d_h.jpg);
+    background-size:100% 75%;
+    background-color: black;
+    background-repeat:no-repeat;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+}
+
+/*comment*/

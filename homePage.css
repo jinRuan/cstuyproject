@@ -1,0 +1,44 @@
+
+
+body
+{
+    background:url(http://3.bp.blogspot.com/-CXxsKFGMoPM/TlUGYc0daCI/AAAAAAAABG4/xw5slc4VDd4/s1600/Food%2B003.JPG);
+    background-size:100% 600px;
+    background-color: black;
+    background-repeat:no-repeat;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 60px;
+    color: white;
+    font-family: 'Exo 2';
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+#logInBtn {
+    margin-top: 10px;
+}
+
+#btns {
+    text-align: center;
+}
+
+button:hover {
+    color:silver;
+    background-color:white;
+
+}

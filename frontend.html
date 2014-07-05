@@ -1,0 +1,92 @@
+<html>
+<title> Restaurant </title>
+
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="design.css">
+<script src="searchResultsJavascript.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(40.714234,-74.006037),
+  zoom:12,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap")
+  ,mapProp);
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+
+</head>
+
+<body>
+<h1>Restaurant</h1>
+<div id="googleMap" style="width:65%;height:50%;"></div>
+
+<br>
+<br>
+<br>
+<br>
+    <div>
+<form id = "food-form">
+
+<input id = "inputForm" type="text" name="cuisine" value="What to eat?">
+
+<input id = "secondInputForm" type="text" name="location" value="Where to eat?">
+<br>
+
+      <!--  <div id="submitButton">
+
+                <input id="actualBtn" onclick="location.href='C:\\PhpstormProjects\\Restaurants-\\searchResults.html'" type="submit" value="Search">
+
+        </div>-->
+</form>
+    </div>
+
+<button onclick="location.href='C:\\PhpstormProjects\\Restaurants-\\searchResults.html'">Submit</button> <!--This is a sample button-I was trying to get the above input to link to searchResults.html-->
+
+<br>
+<br>
+<br>
+<br>
+
+<table align="center">
+    <tr>
+        <td>
+            <div id="questions">
+                <form style="text-align: center">
+                Question 1<br>
+                <input type="radio" name="sex" value="male">Option 1<br>
+                <input type="radio" name="sex" value="male">Option 2<br>
+                <input type="radio" name="sex" value="male">Option 3<br>
+                <input type="radio" name="sex" value="male">Option 4<br>
+                </form>
+            </div>
+        </td>
+        <td style=j"margin-right: 0px;">
+            <div id="dropDown" style="text-align: center;">
+                <select>
+                    <option value="grade">grade</option>
+                    <option value="grade">grade</option>
+                    <option value="grade">grade</option>
+
+                </select>
+
+            </div>
+        </td>
+    </tr>
+
+
+</table>
+</body>
+</html>
